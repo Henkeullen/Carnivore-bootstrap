@@ -1,7 +1,7 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Example</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -10,11 +10,76 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+        <div class="col p-0">
+            <a href class="float-left m-3 navbar-light" data-target="#sidebar" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+            <div class="p-3 content">
+            </div>
+        </div>
+        <div class="col-2 collapse bg-inverse pt-2 h-000" id="sidebar">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link text-black" href="#">Overview</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Analytics</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Export</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link text-black" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="jumbotron text-center">
+  <h1>Carnivore</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
 <div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Column 1</h3>
+      <img src="img/kobe.png" class="float-left" width="280px" height="200px">
+      <button type="button" class="btn btn-outline-success">Add to Cart</button>
+    </div>
+    <div class="col-sm-3">
+      <h3>Column 2</h3>
+      <img src="img/kobe.png" class="float-left" width="280px" height="200px">
+      <button type="button" class="btn btn-outline-success">Add to Cart</button>
+    </div>
+    <div class="col-sm-3">
+      <h3>Column 3</h3>
+      <img src="img/kobe.png" class="float-left" width="280px" height="200px">       
+      <button type="button" class="btn btn-outline-success">Add to Cart</button>
+    </div>
+      <div class="col-sm-3">
+        <h3>Column 3</h3>
+        <img src="img/kobe.png" class="float-left" width="280px" height="200px">     
+        <button type="button" class="btn btn-outline-success">Add to Cart</button>
+      </div>
+    <div class="col-sm-3">
+      <h3>Column 1</h3>
+      <img src="img/kobe.png" class="float-left" width="280px" height="200px">
+      <button type="button" class="btn btn-outline-success">Add to Cart</button>
+    </div>
+    <div class="col-sm-3">
+      <h3>Column 2</h3>
+      <img src="img/kobe.png" class="float-left" width="280px" height="200px">
+      <button type="button" class="btn btn-outline-success">Add to Cart</button>
+    </div>
+    <div class="col-sm-3">
+      <h3>Column 3</h3>
+      <img src="img/kobe.png" class="float-left" width="280px" height="200px">    
+      <button type="button" class="btn btn-outline-success">Add to Cart</button>
+    </div>
+      <div class="col-sm-3">
+        <h3>Column 3</h3>
+        <img src="img/kobe.png" class="float-left" width="280px" height="200px">      
+        <button type="button" class="btn btn-outline-success">Add to Cart</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 </body>
-</html> 
+</html>
