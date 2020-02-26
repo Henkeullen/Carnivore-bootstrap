@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+
+.container {
+    margin-top: 8em;
+    font-family: "Noto Serif";
+}
+
+.country {
+    background: goldenrod;
+    font-family: "Noto Serif";
+    width: 4em;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 3vw;
+    font-family: "Noto Serif";
+    font-weight: 300;
+    color: #43474d;
+    margin-right: 2vw;
+}
+
+.btn-cart {
+    display: inline-block;
+    background-color: goldenrod;
+    border-radius: 14vw;
+    font-size: 2vmin;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn-secondary active {
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #5e6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 4vw;
+    }
+}
