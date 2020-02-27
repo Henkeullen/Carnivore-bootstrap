@@ -1,3 +1,23 @@
+
+body{
+    background-image: url(img/steak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-primary .masthead .navbar .fixed-top .navbar-dark .bg-primary{
+    background-color:transparent !important;
+}
+h1{
+    color: goldenrod;
+    text-shadow: darkred 2px 2px;
+}
+p{
+    color: white;
+}
+
+.py-5{
+    background-color: white;
+}
 .wrapper {
     font: 20px/200% Arial, Helvetica, sans-serif ;
     overflow-x: hidden;
